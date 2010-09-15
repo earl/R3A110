@@ -14,7 +14,7 @@ T= $S/tools
 CP=	cp
 
 CFLAGS= -c -O1 -D_FILE_OFFSET_BITS=64 -Wno-pointer-sign -I $I/ -DTO_LINUX
-LIBS= ./libr3.so -ldl
+LIBS= -ldl -L. -Wl,-rpath=. -lr3
 
 INCS= \
 	$I/reb-config.h\
