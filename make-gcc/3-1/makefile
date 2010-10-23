@@ -14,7 +14,7 @@ T= $S/tools
 CP=	cp
 
 CFLAGS= -c -O1 -DUNICODE -I $I/ -DTO_WIN32
-LIBS= $L/r3lib.lib -L c:/mingw/lib/ -lm -lwsock32 -lcomdlg32 -lgdi32 -lstdc++
+LIBS= -Wl,--stack,0x3ffffc $L/r3lib.lib -L c:/mingw/lib/ -lm -lwsock32 -lcomdlg32 -lgdi32 -lstdc++
 
 INCS= \
 	$I/reb-config.h\
