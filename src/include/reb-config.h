@@ -14,8 +14,6 @@
 **
 ***********************************************************************/
 
-#include "reb-to.h"		// build target (#define TO_osname)
-
 /** Primary Configuration **********************************************
 
 The primary target system is defined by:

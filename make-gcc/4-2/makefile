@@ -13,7 +13,7 @@ T= $S/tools
 # Set this to the name of the file copy program:
 CP=	cp
 
-CFLAGS= -c -O1 -D_FILE_OFFSET_BITS=64 -Wno-pointer-sign -I $S/include/
+CFLAGS= -c -O1 -D_FILE_OFFSET_BITS=64 -Wno-pointer-sign -I $S/include/ -DTO_LINUX
 LIBS= ./libr3.so
 
 INCS= \
