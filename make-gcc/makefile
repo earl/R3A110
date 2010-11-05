@@ -4,7 +4,7 @@
 C= gcc 
 #C= cc  (an alternative)
 S= ../src
-L= ../lib
+L= ../lib/4-2
 O= obj
 I= $S/include
 T= $S/tools
